@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- META TAG OG -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Dev Burguer - O melhor hamburuger dev!"/>
+    <meta property="og:image" content="https://projeto-cardapio-wine.vercel.app/assets/hamb-1.png"/>
+    <meta property="og:description" content="O melhor hamburuger caseiro de verdade!" />
+    <meta property="og:site_name" content="DevBuruger" /> 
+
+  <link rel="stylesheet" href="./styles/output.css" />
+
+  <title>Flavio´s Sucos - o Melhor suco de Garopaba!</title>
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+      <img 
+        src="./assets/hamb-1.png"
+        alt="Logo"
+        class="w-32 h-42 rounded-full  hover:scale-100 duration-100"
+      />
+      <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
+        Flavio´s Sucos
+      </h1>
+      <span class="text-white font-medium">Praia de Garopaba</span>
+    </div>
+  </header>
+  <!-- FIM HEADER -->
+  
+  <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+    Conheça nosso Cardápio
+  </h2>
+
+  <div class="mx-auto max-w-7xl px-2 my-2">
+    <h4 class="font-bold text-2xl">
+      Caipirinhas Tradicionais - Vodka ou Cachaça
+    </h4>
+    <p class="font-bold text-lg">R$ 30.00</p>
+           
+  </div>
+
+  <!-- INICIO MENU -->
+  <div id="menu">
+    
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Caipira Zabela</p>
+          <p class="text-sm">Abacaxi, Lima, Maracujá, Açúcar e Vodka.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_morango.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Caipira Frutas</p>
+          <p class="text-sm">Morango, Abacaxi, Manga, Açúcar e Vodka.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_morango.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Caipira Vinho</p>
+          <p class="text-sm">Abacaxi, Açúcar, Vodka, Bacardi e Vinho Tinto.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_morango.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Clericó</p>
+          <p class="text-sm">Morango, Abacaxi, Manga, uva, açúcar e Vinho Tinto.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Banan Bolt</p>
+          <p class="text-sm">Banana, Limão, Canela, Açúcar e Vodka.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_morango.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Summer Dreans</p>
+          <p class="text-sm">Morango, Limão, Maracujá, Açúcar e Vodka.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Yellow Beach</p>
+          <p class="text-sm">Manga, Limão, Hortelã, Açúcar e Vodka.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_maracuja.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Mango Loco</p>
+          <p class="text-sm">Manga, Maracujá, Açúcar e Vodka.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_morango.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Water Melon</p>
+          <p class="text-sm">Melância, Morango, Limão, Açúcar e Vodka.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 30.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/salada_fruta2.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Salada de Frutas</p>
+          
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 25.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+     
+      <!-- FIM PRODUTO ITEM -->  
+
+    </main>
+    <hr style="height:2px;border-width:0;color:rgb(103, 19, 238);background-color:rgb(103, 19, 238)">
+    <div class="mx-auto max-w-7xl px-2 my-2">
+      <h2 class="font-bold text-3xl">
+        Caipirinhas Especiais
+      </h2>
+      <p class="font-bold text-lg">R$ 35.00</p>
+    </div>
+
+    <!-- GRID BEBIDAS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+        
+      <!-- BEBIDA ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_maracuja.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Siciliana</p>
+          <p class="text-sm">Limão siciliano, Maracujá, Morango, Açúcar e Gin.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 35.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Sakerinha</p>
+          <p class="text-sm">Limão, abacaxi, açúcar e sakê.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 35.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Mojito</p>
+          <p class="text-sm">Limão, abacaxi, açúcar, bacardi e hortelã.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 35.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Lanterna Verde</p>
+          <p class="text-sm">Limão, Kiwi, uva verde, açúcar e Gin.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 35.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_maracuja.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Passion Fruit</p>
+          <p class="text-sm">MMaracujá, Banana, Hortelã, açúcar e Gin.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 35.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Gin Tônica</p>
+          <p class="text-sm">Gin Tônica, Limão siciliano e gelo.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 35.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <img 
+          src="./assets/caipira_limao.png"
+          alt="Hamburuger Smash"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+          <p class="font-bold">Garibalde</p>
+          <p class="text-sm">Campari, Laranja, limão e Açucar.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 35.00</p>
+          </div>
+        </div>
+      </div>
+     
+
+  </div>
+  <hr style="height:2px;border-width:0;color:rgb(103, 19, 238);background-color:rgb(103, 19, 238)">
+  <div class="mx-auto max-w-7xl px-2 my-2">
+    <h2 class="font-bold text-3xl">
+      Batidas
+    </h2>
+    <p class="font-bold text-lg">R$ 35.00</p>
+  </div>
+
+  <!-- GRID BEBIDAS -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+      
+    <!-- BEBIDA ITEM -->
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Amarula</p>
+        <p class="text-sm">Banana, Côco, Chocolate, canela, Vodka e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Orgasmo</p>
+        <p class="text-sm">Morango, Espumante, Leite condensado e Vodka.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Capitão</p>
+        <p class="text-sm">Abacaxi, Vinho, Vodka, Conhaque e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Cristina</p>
+        <p class="text-sm">Morango, Maracujá, Vodka e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Piña Colada</p>
+        <p class="text-sm">Abacaxi, Leite de côco, Côco ralado, Vodka e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Leite de Onça</p>
+        <p class="text-sm">Leite de Côco, Vodka e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Veia Maria</p>
+        <p class="text-sm">Manga, Limão, Vodka e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Santo Daime</p>
+        <p class="text-sm">Banana, Maracujá, Vodka, Conhaque e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex gap-2">
+      <img 
+        src="./assets/batida_morango.png"
+        alt="Hamburuger Smash"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+      />
+      <div>
+        <p class="font-bold">Vinho Colado</p>
+        <p class="text-sm">Vinho Tinto, Abacaxi, Leite de Côco, Hortelã e Leite condensado.</p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+          <p class="font-bold text-lg">R$ 35.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- GRID BEBIDAS -->
+  <!-- FIM MENU -->
+</div>
+  <!-- MODAL CART -->
+  <!-- FIM MODAL CART -->
+  <!-- BUTTON CART FOOTER -->
+  <footer class="w-full bg-gray-900 py-3 fixed bottom-0 z-40 flex items-center justify-center text-white">
+    Desenvolvido por FerreiraDigital - WhatsApp 51993922729
+  </footer>
+  <!-- FIM BUTTON CART FOOTER -->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
